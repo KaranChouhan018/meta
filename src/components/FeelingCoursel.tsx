@@ -54,7 +54,7 @@ const FeelingCarousel: React.FC = () => {
   return (
     <div 
       ref={carouselRef}
-      className="carousel-container absolute bottom-10 left-1/2  scrollbar-hide overflow-x-scroll -translate-x-1/2 w-full  flex gap-[36px] "
+      className="carousel-container absolute bottom-8 left-1/2  -translate-x-1/2 w-full  flex justify-center items-center gap-[36px] "
     >
       {cards.map((card, index) => (
         <div
