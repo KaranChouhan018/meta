@@ -59,7 +59,7 @@ const FeelingCarousel: React.FC = () => {
       {cards.map((card, index) => (
         <div
           key={card.id}
-          className={`min-w-[368px] h-[568px] overflow-hidden ${index === 0 || index === cards.length - 1 ? 'opacity-60' : ''}`}
+          className={`min-w-[368px]  overflow-hidden ${index === 0 || index === cards.length - 1 ? 'opacity-60' : ''}`}
         >
           <div className="relative w-[368px] rounded-[12px] h-[368px]">
             <Image
