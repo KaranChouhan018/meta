@@ -76,7 +76,7 @@ const Video = () => {
         
         <div 
           className={`flex flex-col md:flex-row justify-center items-center gap-4 md:gap-6 transition-all duration-500 ${
-            showCarousel ? 'flex-row justify-center w-screen' : 'flex-col'
+            showCarousel ? 'flex-row justify-start ml-12 w-screen overflow-x-scroll scrollbar-hide' : 'flex-col'
           }`}
         >
           {feelingOptions.map((option) => (
